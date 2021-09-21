@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HinhAnh" Class="HinhAnhDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-AT1QGVO\SQLEXPRESS;Initial Catalog=HinhAnh;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HinhAnhConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Hinhanh" Member="Hinhanhs">
+    <Type Name="Hinhanh">
+      <Column Name="id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Hinh" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
